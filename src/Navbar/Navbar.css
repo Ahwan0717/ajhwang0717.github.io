@@ -17,6 +17,7 @@
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
+  font-weight: 900;
 }
 
 .nav-menu {
@@ -56,19 +57,19 @@
 }
 
 .fab.fa-spotify {
-  color: lightskyblue;
+  color: black;
 }
 
 .fab.fa-youtube {
-  color: lightskyblue;
+  color: black;
 }
 
 .fab.fa-soundcloud {
-  color: lightskyblue;
+  color: black;
 }
 
 .fab.fa-instagram {
-  color: lightskyblue;
+  color: black;
 }
 
 /* .fa-bars {
@@ -88,7 +89,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 50%;
     height: 1000px;
     position: absolute;
     top: 0px;
@@ -141,5 +142,20 @@
     position: relative;
     width: 100%;
     grid-gap: 5px;
+  }
+  .fab.fa-spotify {
+    color: white;
+  }
+
+  .fab.fa-youtube {
+    color: white;
+  }
+
+  .fab.fa-soundcloud {
+    color: white;
+  }
+
+  .fab.fa-instagram {
+    color: white;
   }
 }
