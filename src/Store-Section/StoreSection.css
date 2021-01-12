@@ -1,0 +1,16 @@
+.store-container {
+  height: 75vh;
+  width: 100%;
+  background-color: black;
+}
+
+.store-copy {
+  display: flex;
+  justify-content: center;
+  padding-top: 12rem;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 960px) {
+}

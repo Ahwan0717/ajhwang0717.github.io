@@ -1,5 +1,5 @@
 .music-container {
-  height: 70vh;
+  height: 75vh;
   width: 100%;
   background-color: lightslategrey;
 }
@@ -10,15 +10,22 @@
   text-transform: uppercase;
   color: white;
   font-weight: 900;
+  font-size: 30px;
 }
 
 .music-copy {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 8rem;
+  padding-top: 10rem;
+  padding-right: 23rem;
+  text-transform: uppercase;
   color: white;
   font-weight: 900;
+}
+
+.sub-heading {
+  font-size: 30px;
 }
 
 .more-links-container {
@@ -30,26 +37,39 @@
 }
 
 @media screen and (max-width: 960px) {
-  /* .section-title {
-    margin-left: 2rem;
-    padding-top: 2rem;
-    text-transform: uppercase;
-    color: white;
+  .section-title {
+    padding-right: 3rem;
     font-weight: 900;
-  } */
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  .music-copy-container {
+    width: 100%;
+    margin-left: 22vh;
+  }
 
   .music-copy {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20rem;
+    padding-top: 18rem;
     text-transform: uppercase;
     color: white;
     font-weight: 900;
   }
 
+  .music-text {
+    white-space: nowrap;
+  }
+
   .more-links-container {
     padding-top: 2rem;
+  }
+
+  .more-links {
+    white-space: nowrap;
   }
 
   .more-links:hover {
