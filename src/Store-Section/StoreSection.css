@@ -1,7 +1,6 @@
 .store-container {
   height: 75vh;
   width: 100%;
-  /* background-color: black; */
   background-image: url("./store-bg.jpg");
 }
 
@@ -11,7 +10,16 @@
   padding-top: 12rem;
   color: white;
   font-size: 20px;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 960px) {
+  .store-copy {
+    display: flex;
+    justify-content: center;
+    padding-top: 12rem;
+    color: white;
+    font-size: 1.5rem;
+  }
 }
