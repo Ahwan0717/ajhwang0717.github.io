@@ -1,7 +1,8 @@
 .store-container {
   height: 75vh;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("./store-bg.jpg");
 }
 
 .store-copy {

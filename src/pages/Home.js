@@ -1,6 +1,8 @@
 import HeroSection from "../Hero-Section/HeroSection";
 import MusicSection from "../Music-Section/MusicSection";
 import StoreSection from "../Store-Section/StoreSection";
+import SubscribeSection from "../Subscribe-Section/SubscribeSection";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
@@ -8,6 +10,8 @@ function Home() {
       <HeroSection />
       <MusicSection />
       <StoreSection />
+      <SubscribeSection />
+      <Footer />
     </>
   );
 }

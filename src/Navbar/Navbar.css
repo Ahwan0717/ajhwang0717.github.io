@@ -4,7 +4,9 @@
     rgb(110, 94, 254) 0%,
     rgba(73, 63, 252, 1) 100%
   ); */
-  background: transparent;
+
+  /* background: transparent; */
+  background-image: url("./nav-banner.jpg");
   height: 80px;
   display: flex;
   justify-content: center;
@@ -13,11 +15,7 @@
 }
 
 .navbar-logo {
-  color: black;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  font-weight: 900;
+  height: 120px;
 }
 
 .nav-menu {
@@ -32,7 +30,8 @@
 }
 
 .nav-links {
-  color: black;
+  /* color: black; */
+  color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
