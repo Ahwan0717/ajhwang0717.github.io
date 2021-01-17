@@ -27,63 +27,72 @@ function SubscribeSection() {
   return (
     <div className="subscribe-container">
       <section className="subscribe-section">
-        <h1 className="subscribe-title">Subscribe</h1>
+        <h1 className="subscribe-title">Contact</h1>
         <div className="subscribe-form-container">
           <form onSubmit={sendEmail}>
             <div className="form-input">
               <label className="form-label">
                 Name
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Name"
-                  name="name"
-                />
+                <input type="text" className="form-control" name="name" />
               </label>
             </div>
             <div className="form-input">
               <label className="form-label">
                 Email
-                <input
-                  type="email"
-                  className="form-control"
-                  placeholder="Email"
-                  name="email"
-                />
+                <input type="email" className="form-control" name="email" />
               </label>
             </div>
             <div className="form-input">
               <label className="form-label">
                 Subject
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Subject"
-                  name="subject"
-                />
+                <input type="text" className="form-control" name="subject" />
               </label>
             </div>
             <div className="form-input">
               <label className="form-label">
                 Message
                 <textarea
-                  //   className="form-control"
                   className="text-area"
                   cols="30"
                   rows="8"
-                  placeholder="Your message"
                   name="message"
                 ></textarea>
               </label>
             </div>
             <div>
-              <input
-                type="submit"
-                className="btn btn-info"
-                value="Send Message"
-              ></input>
+              <input type="submit" className="btn" value="Send Message"></input>
             </div>
           </form>
+        </div>
+        <div>
+          <ul className="contact-socials">
+            <li className="social">
+              <a
+                href="https://open.spotify.com/artist/60wxfdsmJb2BekohKCPVVT?si=efKwonVkRUOHn0fVkleA5Q"
+                target="_blank"
+              >
+                <i className="fab fa-spotify" />
+              </a>
+            </li>
+            <li className="social">
+              <a
+                href="https://www.youtube.com/channel/UCSGP2On9KrcheWlyQjyAIJg"
+                target="_blank"
+              >
+                <i className="fab fa-youtube" />
+              </a>
+            </li>
+            <li className="social">
+              <a href="https://soundcloud.com/latinshui" target="_blank">
+                <i className="fab fa-soundcloud" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/latinshui/" target="_blank">
+                <i className="fab fa-instagram" />
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </div>

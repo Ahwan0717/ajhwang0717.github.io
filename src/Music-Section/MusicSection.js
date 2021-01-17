@@ -15,7 +15,7 @@ function MusicSection() {
               <button className="hero-btn">Stream / Download </button>
             </a>
             <div className="more-links-container">
-              <a className="more-links" href="#">
+              <a className="more-links" href="#" rel="noreferrer">
                 View All Releases
               </a>
             </div>
