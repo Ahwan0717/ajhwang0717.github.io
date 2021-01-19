@@ -13,11 +13,21 @@
   font-size: 30px;
 }
 
+.music-release-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.music-release {
+  height: 20rem;
+}
+
 .music-copy {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-top: 10rem;
+  padding-top: 7rem;
   padding-right: 23rem;
   text-transform: uppercase;
   color: white;
@@ -25,7 +35,8 @@
 }
 
 .sub-heading {
-  font-size: 30px;
+  font-size: 25px;
+  white-space: nowrap;
 }
 
 .more-links-container {
@@ -46,16 +57,26 @@
     font-size: 30px;
   }
 
+  .music-release-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  .music-release {
+    height: 17rem;
+  }
+
   .music-copy-container {
     width: 100%;
-    margin-left: 22vh;
+    margin-left: 23vh;
   }
 
   .music-copy {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 18rem;
+    padding-top: 2rem;
     text-transform: uppercase;
     color: white;
     font-weight: 900;
