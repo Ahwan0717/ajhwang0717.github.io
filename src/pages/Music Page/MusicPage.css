@@ -3,18 +3,47 @@
   background-color: lightslategrey;
 }
 
+.music-items-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+
+.single-item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 33%;
+}
+
+.single-img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.music-links {
+  text-decoration: none;
+  color: white;
+  padding-top: 1rem;
+}
+
 @media screen and (max-width: 960px) {
   .music-items-container {
     list-style: none;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
   }
 
   .single-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
   }
 
   .single-img {
@@ -27,5 +56,6 @@
     text-decoration: none;
     color: white;
     padding-top: 1rem;
+    white-space: nowrap;
   }
 }

@@ -9,19 +9,20 @@ function SubscribeSection() {
 
     emailjs
       .sendForm(
-        "gmail",
-        "YOUR_TEMPLATE_ID",
+        "service_fwt5d9x",
+        "template_c9tfrlu",
         e.target,
         "user_cHaDT3An8hsHc9dHhPsZj"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log("Email successfully sent!");
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   }
 
   return (

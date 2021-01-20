@@ -14,8 +14,22 @@ function MusicSection() {
             src={musicSingle}
             alt="lost in thoughts of you single release"
           />
+          <div className="music-copy-container">
+            <div className="music-copy">
+              <p className="music-text">Out Now</p>
+              <h2 className="sub-heading">Lost In Thoughts Of You</h2>
+              <a href="https://linktr.ee/latinshui" target="_blank">
+                <button className="hero-btn">Stream / Download </button>
+              </a>
+              <div className="more-links-container">
+                <a className="more-links" href="#" rel="noreferrer">
+                  View All Releases
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="music-copy-container">
+        {/* <div className="music-copy-container">
           <div className="music-copy">
             <p className="music-text">Out Now</p>
             <h2 className="sub-heading">Lost In Thoughts Of You</h2>
@@ -28,7 +42,7 @@ function MusicSection() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

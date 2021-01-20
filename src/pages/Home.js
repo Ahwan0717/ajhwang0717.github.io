@@ -11,7 +11,6 @@ function Home() {
       <MusicSection />
       <StoreSection />
       <SubscribeSection />
-      <Footer />
     </>
   );
 }

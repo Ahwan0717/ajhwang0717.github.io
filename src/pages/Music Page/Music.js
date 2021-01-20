@@ -16,7 +16,7 @@ function MusicPage() {
                 alt="latin shui music release"
               />
               {console.log(song.imgName)}
-              <a className={song.cName} href={song.url}>
+              <a className={song.cName} href={song.url} target="_blank">
                 {song.title}
               </a>
             </li>
