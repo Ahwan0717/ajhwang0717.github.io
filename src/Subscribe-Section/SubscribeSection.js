@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import "../App.css";
 import "./SubscribeSection.css";
+import "aos/dist/aos.css";
 
 function SubscribeSection() {
   function sendEmail(e) {
@@ -29,7 +30,11 @@ function SubscribeSection() {
     <div className="subscribe-container">
       <section className="subscribe-section">
         <h1 className="subscribe-title">Contact</h1>
-        <div className="subscribe-form-container">
+        <div
+          className="subscribe-form-container"
+          data-aos="zoom-in-right"
+          data-aos-duration="2000"
+        >
           <form onSubmit={sendEmail}>
             <div className="form-input">
               <label className="form-label">
@@ -65,7 +70,11 @@ function SubscribeSection() {
             </div>
           </form>
         </div>
-        <div>
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <ul className="contact-socials">
             <li className="social">
               <a

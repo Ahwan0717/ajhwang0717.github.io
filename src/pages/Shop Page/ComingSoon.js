@@ -5,7 +5,7 @@ import LatinShui from "./latinshui.png";
 function ComingSoonPage() {
   return (
     <div className="shop-page-container">
-      <h1 className="section-title">Coming Soon</h1>
+      <h1 className="shop-title">Coming Soon</h1>
       <div className="logo-container">
         <img
           className="latin-shui-logo"

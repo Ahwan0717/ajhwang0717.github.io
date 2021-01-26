@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "./logo.png";
-import logo2 from "./logo2.png";
 import logo3 from "./logo3.png";
 
 class Navbar extends Component {
@@ -16,9 +14,6 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        {/* <h1 className="navbar-logo">
-          Latin Shui
-        </h1> */}
         <Link to="/">
           <img className="navbar-logo" src={logo3} alt="latin shui logo" />
         </Link>

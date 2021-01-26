@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import "./HeroSection.css";
+import "aos/dist/aos.css";
 
 function HeroSection() {
+  let AOS;
+  useEffect(() => {
+    const AOS = require("aos");
+    AOS.init({
+      once: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    if (AOS) {
+      AOS.refresh();
+    }
+  });
+
   return (
     <div className="hero-container">
       <div className="hero-copy">

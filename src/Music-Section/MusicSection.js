@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import "./MusicSection.css";
+import "aos/dist/aos.css";
 import musicSingle from "./music-single.png";
 
 function MusicSection() {
@@ -14,7 +15,11 @@ function MusicSection() {
             src={musicSingle}
             alt="lost in thoughts of you single release"
           />
-          <div className="music-copy-container">
+          <div
+            className="music-copy-container"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+          >
             <div className="music-copy">
               <p className="music-text">Out Now</p>
               <h2 className="sub-heading">Lost In Thoughts Of You</h2>
