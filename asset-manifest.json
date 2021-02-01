@@ -1,17 +1,35 @@
 {
   "files": {
-    "main.js": "/latin-shui-artist-site/static/js/main.4d07e494.chunk.js",
-    "main.js.map": "/latin-shui-artist-site/static/js/main.4d07e494.chunk.js.map",
+    "main.css": "/latin-shui-artist-site/static/css/main.184b29e3.chunk.css",
+    "main.js": "/latin-shui-artist-site/static/js/main.fd3bee13.chunk.js",
+    "main.js.map": "/latin-shui-artist-site/static/js/main.fd3bee13.chunk.js.map",
     "runtime-main.js": "/latin-shui-artist-site/static/js/runtime-main.15ae6fb4.js",
     "runtime-main.js.map": "/latin-shui-artist-site/static/js/runtime-main.15ae6fb4.js.map",
-    "static/js/2.50c31b05.chunk.js": "/latin-shui-artist-site/static/js/2.50c31b05.chunk.js",
-    "static/js/2.50c31b05.chunk.js.map": "/latin-shui-artist-site/static/js/2.50c31b05.chunk.js.map",
+    "static/css/2.ec02d681.chunk.css": "/latin-shui-artist-site/static/css/2.ec02d681.chunk.css",
+    "static/js/2.3f622c04.chunk.js": "/latin-shui-artist-site/static/js/2.3f622c04.chunk.js",
+    "static/js/2.3f622c04.chunk.js.map": "/latin-shui-artist-site/static/js/2.3f622c04.chunk.js.map",
     "index.html": "/latin-shui-artist-site/index.html",
-    "static/js/2.50c31b05.chunk.js.LICENSE.txt": "/latin-shui-artist-site/static/js/2.50c31b05.chunk.js.LICENSE.txt"
+    "static/css/2.ec02d681.chunk.css.map": "/latin-shui-artist-site/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.184b29e3.chunk.css.map": "/latin-shui-artist-site/static/css/main.184b29e3.chunk.css.map",
+    "static/js/2.3f622c04.chunk.js.LICENSE.txt": "/latin-shui-artist-site/static/js/2.3f622c04.chunk.js.LICENSE.txt",
+    "static/media/Breeze.74e0d5d8.jpg": "/latin-shui-artist-site/static/media/Breeze.74e0d5d8.jpg",
+    "static/media/E.Automate.9c918358.jpg": "/latin-shui-artist-site/static/media/E.Automate.9c918358.jpg",
+    "static/media/WithYou.b6d337d5.jpg": "/latin-shui-artist-site/static/media/WithYou.b6d337d5.jpg",
+    "static/media/Footer.css": "/latin-shui-artist-site/static/media/footer-bg.8ca81d73.jpg",
+    "static/media/HeroSection.css": "/latin-shui-artist-site/static/media/latin-shui-bg.34c136ee.jpg",
+    "static/media/latinshui.038a111c.png": "/latin-shui-artist-site/static/media/latinshui.038a111c.png",
+    "static/media/lightdarklight.4d14ef99.jpg": "/latin-shui-artist-site/static/media/lightdarklight.4d14ef99.jpg",
+    "static/media/logo3.0c4a5f07.png": "/latin-shui-artist-site/static/media/logo3.0c4a5f07.png",
+    "static/media/lost.7a431591.png": "/latin-shui-artist-site/static/media/lost.7a431591.png",
+    "static/media/music-single.7a431591.png": "/latin-shui-artist-site/static/media/music-single.7a431591.png",
+    "static/media/Navbar.css": "/latin-shui-artist-site/static/media/nav-banner.8ca81d73.jpg",
+    "static/media/StoreSection.css": "/latin-shui-artist-site/static/media/store-bg.5d1b1d9b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.15ae6fb4.js",
-    "static/js/2.50c31b05.chunk.js",
-    "static/js/main.4d07e494.chunk.js"
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.3f622c04.chunk.js",
+    "static/css/main.184b29e3.chunk.css",
+    "static/js/main.fd3bee13.chunk.js"
   ]
 }
