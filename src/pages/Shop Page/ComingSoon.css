@@ -1,39 +1,32 @@
 .shop-page-container {
-  /* width: 100%;
-  background-color: black;
-  background-image: url(./latinshui.png);
-  background-repeat: no-repeat;
-  background-position: center; */
-}
-
-/* .shop-page-container {
-  background-color: black;
   width: 100%;
+  background-color: black;
+  background-position: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-.section-title {
-  padding-top: 2rem;
+.shop-title {
+  padding-bottom: 1rem;
   text-transform: uppercase;
   color: white;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
-} */
+  padding-top: 1rem;
+}
 
-/* .logo-container {
+.logo-container {
   display: flex;
   justify-content: center;
-  height: 120vh;
-  padding-top: 2rem;
+  padding: 4.5rem;
 }
 
 .latin-shui-logo {
-  height: 100vh;
-  padding-top: 2rem;
-} */
+  height: 62vh;
+}
 
 @media screen and (max-width: 960px) {
   .shop-page-container {
@@ -53,6 +46,7 @@
     font-size: 30px;
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
   }
 
   .logo-container {
@@ -64,23 +58,4 @@
   .latin-shui-logo {
     height: 62vh;
   }
-
-  /* .shop-page-container {
-    background-color: black;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    height: 120vh;
-    padding-top: 2rem;
-  }
-
-  .latin-shui-logo {
-    height: 60vh;
-    padding-top: 2rem;
-  } */
 }

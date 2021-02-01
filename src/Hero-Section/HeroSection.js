@@ -22,7 +22,7 @@ function HeroSection() {
     <div className="hero-container">
       <div className="hero-copy">
         <h2>Single Out Now</h2>
-        <h1>E. automate</h1>
+        <h1>Lost In Thoughts Of You</h1>
         <a href="https://linktr.ee/latinshui" target="_blank">
           <button className="hero-btn">Stream / Download </button>
         </a>

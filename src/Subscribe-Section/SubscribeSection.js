@@ -27,7 +27,7 @@ function SubscribeSection() {
   }
 
   return (
-    <div className="subscribe-container">
+    <div id="contact" className="subscribe-container">
       <section className="subscribe-section">
         <h1 className="subscribe-title">Contact</h1>
         <div

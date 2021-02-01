@@ -1,11 +1,4 @@
 .NavbarItems {
-  /* background: linear-gradient(
-    90deg,
-    rgb(110, 94, 254) 0%,
-    rgba(73, 63, 252, 1) 100%
-  ); */
-
-  /* background: transparent; */
   background-image: url("./nav-banner.jpg");
   height: 80px;
   display: flex;
@@ -30,14 +23,13 @@
 }
 
 .nav-links {
-  /* color: black; */
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  background-color: lightblue;
+  background-color: lightsteelblue;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -50,7 +42,6 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, auto);
-  /* grid-template-rows: repeat(4, auto); */
   grid-gap: 15px;
   margin-left: 2rem;
 }
@@ -70,15 +61,6 @@
 .fab.fa-instagram {
   color: black;
 }
-
-/* .fa-bars {
-  color: blue;
-} */
-
-/* .fa-react {
-  margin-left: 0.5rem;
-  font-size: 1.6rem;
-} */
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
@@ -103,6 +85,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    padding-left: 0rem;
   }
 
   .nav-links {
@@ -137,7 +120,7 @@
   }
   .nav-menu-socials {
     padding-top: 15rem;
-    margin-left: 0rem;
+    margin-left: -1rem;
     position: relative;
     width: 100%;
     grid-gap: 5px;

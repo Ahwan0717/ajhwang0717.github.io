@@ -2,7 +2,6 @@
   background-image: url(../assets/latin-shui-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
   height: 70vh;
   width: 100%;
   display: flex;
@@ -17,15 +16,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 90px;
   text-transform: uppercase;
   font-weight: 900;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .hero-copy > h1 {
   color: white;
   margin-top: 10px;
-  font-size: 6vh;
+  font-size: 4.2vh;
 }
 
 .hero-copy > h2 {
@@ -37,10 +38,20 @@
 .hero-btn {
   margin-top: 20px;
   border-radius: 12px;
-  background-color: floralwhite;
   height: 40px;
   width: 200px;
   border: none;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
+}
+
+.hero-btn:hover {
+  background: rgba(255, 255, 255, 0.824);
+  opacity: 0.8;
+}
+
+.hero-btn:active {
+  background: rgba(255, 255, 255, 0.824);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

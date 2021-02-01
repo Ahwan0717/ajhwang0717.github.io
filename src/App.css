@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -9,7 +8,6 @@ html,
 body {
   overflow-x: hidden;
   width: 100%;
-  /* You may also want to try adding:*/
   margin: 0;
   padding: 0;
 }

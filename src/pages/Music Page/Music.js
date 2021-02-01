@@ -10,12 +10,20 @@ function MusicPage() {
         {MusicItems.map((song, index) => {
           return (
             <li key={index} className="single-item">
-              <img
-                src={song.imgName}
-                className="single-img"
-                alt="latin shui music release"
-              />
-              {console.log(song.imgName)}
+              <div className="img-overlay-container">
+                <img
+                  src={song.imgName}
+                  className="single-img"
+                  alt="latin shui music release"
+                />
+                <div class="middle">
+                  <div class="text">
+                    <a className={song.cName} href={song.url} target="_blank">
+                      Stream/Download
+                    </a>
+                  </div>
+                </div>
+              </div>
               <a className={song.cName} href={song.url} target="_blank">
                 {song.title}
               </a>
