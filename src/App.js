@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import MusicPage from "./pages/Music Page/Music";
 import ComingSoonPage from "./pages/Shop Page/ComingSoon";
