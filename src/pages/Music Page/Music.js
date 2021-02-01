@@ -18,13 +18,23 @@ function MusicPage() {
                 />
                 <div class="middle">
                   <div class="text">
-                    <a className={song.cName} href={song.url} target="_blank">
+                    <a
+                      className={song.cName}
+                      href={song.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       Stream/Download
                     </a>
                   </div>
                 </div>
               </div>
-              <a className={song.cName} href={song.url} target="_blank">
+              <a
+                className={song.cName}
+                href={song.url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {song.title}
               </a>
             </li>

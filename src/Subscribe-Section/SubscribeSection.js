@@ -80,6 +80,7 @@ function SubscribeSection() {
               <a
                 href="https://open.spotify.com/artist/60wxfdsmJb2BekohKCPVVT?si=efKwonVkRUOHn0fVkleA5Q"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-spotify" />
               </a>
@@ -88,17 +89,26 @@ function SubscribeSection() {
               <a
                 href="https://www.youtube.com/channel/UCSGP2On9KrcheWlyQjyAIJg"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-youtube" />
               </a>
             </li>
             <li className="social">
-              <a href="https://soundcloud.com/latinshui" target="_blank">
+              <a
+                href="https://soundcloud.com/latinshui"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-soundcloud" />
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/latinshui/" target="_blank">
+              <a
+                href="https://www.instagram.com/latinshui/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-instagram" />
               </a>
             </li>

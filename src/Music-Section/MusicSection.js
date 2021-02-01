@@ -23,7 +23,11 @@ function MusicSection() {
             <div className="music-copy">
               <p className="music-text">Out Now</p>
               <h2 className="sub-heading">Lost In Thoughts Of You</h2>
-              <a href="https://linktr.ee/latinshui" target="_blank">
+              <a
+                href="https://linktr.ee/latinshui"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="hero-btn">Stream / Download </button>
               </a>
               <div className="more-links-container">
