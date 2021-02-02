@@ -3,6 +3,7 @@ import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo3 from "./logo3.png";
+import { HashLink } from "react-router-hash-link";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -27,9 +28,9 @@ class Navbar extends Component {
             if (item.title === "Contact") {
               return (
                 <li key={index}>
-                  <a className={item.cName} href="/#contact">
+                  <HashLink className={item.cName} to="/#contact">
                     {item.title}
-                  </a>
+                  </HashLink>
                 </li>
               );
             }
