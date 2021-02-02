@@ -1,7 +1,7 @@
 {
   "name": "latin-shui-site",
   "version": "0.1.0",
-  "homepage": "http://Ahwan0717.github.io/latin-shui-artist-site",
+  "homepage": "https://ahwan0717.github.io/latin-shui-artist-site",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
