@@ -36,9 +36,9 @@ class Navbar extends Component {
             }
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <HashLink className={item.cName} to={item.url}>
                   {item.title}
-                </a>
+                </HashLink>
               </li>
             );
           })}
