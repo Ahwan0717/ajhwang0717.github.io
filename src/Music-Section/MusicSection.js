@@ -3,6 +3,7 @@ import "../App.css";
 import "./MusicSection.css";
 import "aos/dist/aos.css";
 import musicSingle from "./music-single.png";
+import { Link } from "react-router-dom";
 
 function MusicSection() {
   return (
@@ -31,27 +32,13 @@ function MusicSection() {
                 <button className="hero-btn">Stream / Download </button>
               </a>
               <div className="more-links-container">
-                <a className="more-links" href="/music" rel="noreferrer">
+                <Link className="more-links" to="/music">
                   View All Releases
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="music-copy-container">
-          <div className="music-copy">
-            <p className="music-text">Out Now</p>
-            <h2 className="sub-heading">Lost In Thoughts Of You</h2>
-            <a href="https://linktr.ee/latinshui" target="_blank">
-              <button className="hero-btn">Stream / Download </button>
-            </a>
-            <div className="more-links-container">
-              <a className="more-links" href="#" rel="noreferrer">
-                View All Releases
-              </a>
-            </div>
-          </div>
-        </div> */}
       </section>
     </div>
   );
