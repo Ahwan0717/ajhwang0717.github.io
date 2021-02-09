@@ -1,6 +1,6 @@
 .music-page-container {
   width: 100%;
-  background-color: lightslategrey;
+  background-color: dimgrey;
 }
 
 .music-items-container {
@@ -120,5 +120,28 @@
     color: white;
     padding-top: 1rem;
     white-space: nowrap;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .music-items-container {
+    padding: 2rem 0rem 0rem 8rem;
+  }
+
+  .single-item {
+    width: 43%;
+  }
+
+  .single-img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .music-links {
+    font-size: 1.6rem;
+  }
+
+  .middle {
+    left: calc(100vh - 88.2vh);
   }
 }

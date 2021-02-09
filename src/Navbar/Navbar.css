@@ -29,7 +29,7 @@
 }
 
 .nav-links:hover {
-  background-color: lightsteelblue;
+  background-color: dimgrey;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -80,7 +80,8 @@
   }
 
   .nav-menu.active {
-    background: black;
+    /* background: black; */
+    background-color: rgba(148, 30, 30, 1);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -98,7 +99,7 @@
   }
 
   .nav-links:hover {
-    background-color: lightsteelblue;
+    background-color: dimgrey;
     border-radius: 0;
   }
 
@@ -139,5 +140,14 @@
 
   .fab.fa-instagram {
     color: white;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
   }
 }

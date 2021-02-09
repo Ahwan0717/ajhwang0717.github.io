@@ -1,5 +1,6 @@
 .hero-container {
-  background-image: url(../assets/latin-shui-bg.jpg);
+  /* background-image: url(../assets/latin-shui-bg.jpg); */
+  background-image: url(../assets/latin-shui-logo.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 70vh;
@@ -16,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 10vh;
   text-transform: uppercase;
   font-weight: 900;
   margin-left: 1rem;
@@ -26,12 +27,12 @@
 .hero-copy > h1 {
   color: white;
   margin-top: 10px;
-  font-size: 4.2vh;
+  font-size: 2rem;
 }
 
 .hero-copy > h2 {
   color: white;
-  font-size: 20px;
+  font-size: 1rem;
   margin-top: 100px;
 }
 
@@ -46,12 +47,99 @@
 }
 
 .hero-btn:hover {
-  background: rgba(255, 255, 255, 0.824);
   opacity: 0.8;
 }
 
-.hero-btn:active {
-  background: rgba(255, 255, 255, 0.824);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+@media screen and (max-width: 960px) {
+  .hero-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .hero-btn {
+    margin-top: 20px;
+    border-radius: 12px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+
+  .hero-btn:hover {
+    background: rgba(255, 255, 255, 0.824);
+    /* opacity: 0.8; */
+  }
+
+  .hero-btn:active {
+    background: rgba(255, 255, 255, 0.824);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .hero-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .hero-copy > h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 100px;
+  }
+  .hero-copy > h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+
+  .hero-btn {
+    margin-top: 20px;
+    border-radius: 12px;
+    height: 4rem;
+    width: 20rem;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-right: 2rem;
+  }
+
+  .music-text {
+    font-size: 1.5rem;
+  }
+
+  .sub-heading {
+    font-size: 2rem;
+  }
+
+  .more-links {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+  }
 }
