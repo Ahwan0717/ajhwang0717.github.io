@@ -14,7 +14,7 @@ function ComingSoonPage() {
         />
       </div>
       <div>
-        <ul className="contact-socials">
+        <ul className="shop-socials">
           <li className="social">
             <a
               href="https://open.spotify.com/artist/60wxfdsmJb2BekohKCPVVT?si=efKwonVkRUOHn0fVkleA5Q"
@@ -40,6 +40,15 @@ function ComingSoonPage() {
               rel="noreferrer"
             >
               <i className="fab fa-soundcloud" />
+            </a>
+          </li>
+          <li className="social">
+            <a
+              href="https://latinshui.bandcamp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-bandcamp"></i>
             </a>
           </li>
           <li>

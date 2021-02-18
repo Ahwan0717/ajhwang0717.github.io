@@ -78,6 +78,15 @@ class Navbar extends Component {
             </li>
             <li>
               <a
+                href="https://latinshui.bandcamp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-bandcamp"></i>
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.instagram.com/latinshui/"
                 target="_blank"
                 rel="noreferrer"

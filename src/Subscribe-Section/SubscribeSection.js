@@ -103,6 +103,15 @@ function SubscribeSection() {
                 <i className="fab fa-soundcloud" />
               </a>
             </li>
+            <li className="social">
+              <a
+                href="https://latinshui.bandcamp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fab fa-bandcamp"></i>
+              </a>
+            </li>
             <li>
               <a
                 href="https://www.instagram.com/latinshui/"

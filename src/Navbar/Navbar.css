@@ -41,25 +41,13 @@
 .nav-menu-socials {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 15px;
   margin-left: 2rem;
 }
 
-.fab.fa-spotify {
-  color: black;
-}
-
-.fab.fa-youtube {
-  color: black;
-}
-
-.fab.fa-soundcloud {
-  color: black;
-}
-
-.fab.fa-instagram {
-  color: black;
+.fab.fa-bandcamp {
+  color: white;
 }
 
 @media screen and (max-width: 960px) {
@@ -80,13 +68,14 @@
   }
 
   .nav-menu.active {
-    /* background: black; */
     background-color: rgba(148, 30, 30, 1);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
     padding-left: 0rem;
+    position: fixed;
+    width: 60%;
   }
 
   .nav-links {
@@ -119,12 +108,13 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
+
   .nav-menu-socials {
-    padding-top: 15rem;
-    margin-left: -1rem;
+    padding-top: 8rem;
+    margin-left: -1.3rem;
     position: relative;
     width: 100%;
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
   .fab.fa-spotify {
     color: white;
@@ -139,6 +129,10 @@
   }
 
   .fab.fa-instagram {
+    color: white;
+  }
+
+  .fab.fa-bandcamp {
     color: white;
   }
 }
