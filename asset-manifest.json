@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a42e7e6.chunk.css",
-    "main.js": "/static/js/main.9a5f73fb.chunk.js",
-    "main.js.map": "/static/js/main.9a5f73fb.chunk.js.map",
+    "main.css": "/static/css/main.718d066d.chunk.css",
+    "main.js": "/static/js/main.e6ca9800.chunk.js",
+    "main.js.map": "/static/js/main.e6ca9800.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6dfccfad.js",
     "runtime-main.js.map": "/static/js/runtime-main.6dfccfad.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -10,26 +10,26 @@
     "static/js/2.36e58b28.chunk.js.map": "/static/js/2.36e58b28.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.3a42e7e6.chunk.css.map": "/static/css/main.3a42e7e6.chunk.css.map",
+    "static/css/main.718d066d.chunk.css.map": "/static/css/main.718d066d.chunk.css.map",
     "static/js/2.36e58b28.chunk.js.LICENSE.txt": "/static/js/2.36e58b28.chunk.js.LICENSE.txt",
     "static/media/Breeze.b245a049.jpg": "/static/media/Breeze.b245a049.jpg",
     "static/media/E.Automate.644bf036.jpg": "/static/media/E.Automate.644bf036.jpg",
     "static/media/WithYou.1df78f11.jpg": "/static/media/WithYou.1df78f11.jpg",
-    "static/media/Footer.css": "/static/media/footer-bg.8ca81d73.jpg",
-    "static/media/HeroSection.css": "/static/media/latin-shui-logo.2428be52.png",
-    "static/media/latinshui.038a111c.png": "/static/media/latinshui.038a111c.png",
+    "static/media/Footer.css": "/static/media/footer-bg.06ef2ab6.jpg",
+    "static/media/HeroSection.css": "/static/media/latin-shui-logo.29ca5f4e.png",
+    "static/media/latinshui.7b121fe4.png": "/static/media/latinshui.7b121fe4.png",
     "static/media/lightdarklight.f8361a24.jpg": "/static/media/lightdarklight.f8361a24.jpg",
-    "static/media/logo3.0c4a5f07.png": "/static/media/logo3.0c4a5f07.png",
-    "static/media/lost.ba970fe3.png": "/static/media/lost.ba970fe3.png",
-    "static/media/music-single.ba970fe3.png": "/static/media/music-single.ba970fe3.png",
-    "static/media/Navbar.css": "/static/media/nav-banner.8ca81d73.jpg",
-    "static/media/StoreSection.css": "/static/media/store-bg.5d1b1d9b.jpg"
+    "static/media/logo3.6773643a.png": "/static/media/logo3.6773643a.png",
+    "static/media/lost.d38ded04.png": "/static/media/lost.d38ded04.png",
+    "static/media/music-single.d38ded04.png": "/static/media/music-single.d38ded04.png",
+    "static/media/Navbar.css": "/static/media/nav-banner.06ef2ab6.jpg",
+    "static/media/StoreSection.css": "/static/media/store-bg.3636c6e7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6dfccfad.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.36e58b28.chunk.js",
-    "static/css/main.3a42e7e6.chunk.css",
-    "static/js/main.9a5f73fb.chunk.js"
+    "static/css/main.718d066d.chunk.css",
+    "static/js/main.e6ca9800.chunk.js"
   ]
 }
