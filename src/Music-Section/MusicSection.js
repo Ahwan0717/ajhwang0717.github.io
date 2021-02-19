@@ -2,7 +2,8 @@ import React from "react";
 import "../App.css";
 import "./MusicSection.css";
 import "aos/dist/aos.css";
-import musicSingle from "./music-single.png";
+// import musicSingle from "./music-single.png";
+import musicSingle from "./lost.webp";
 import { Link } from "react-router-dom";
 
 function MusicSection() {

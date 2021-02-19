@@ -1,13 +1,14 @@
 .store-container {
-  height: 75vh;
+  height: 64vh;
   width: 100%;
   background-image: url("./store-bg.jpg");
+  background-size: cover;
 }
 
 .store-copy {
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 7.5rem;
   color: white;
   font-size: 2.7rem;
   text-transform: uppercase;
@@ -23,5 +24,7 @@
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .store-container {
     height: 50vh;
+    width: 100%;
+    background-size: cover;
   }
 }

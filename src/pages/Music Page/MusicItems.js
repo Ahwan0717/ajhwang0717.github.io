@@ -1,5 +1,5 @@
 import Breeze from "./Breeze.jpg";
-import Lost from "./lost.png";
+import Lost from "./lost.webp";
 import Light from "./lightdarklight.jpg";
 import Automate from "./E.Automate.jpg";
 import WithYou from "./WithYou.jpg";
